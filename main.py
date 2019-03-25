@@ -22,6 +22,7 @@ def main():
     args = parsarg()
     agG = agg("scenarios/extract_load.yml", args)
     func_tab = [Convert, ExtractWithExtension, Extract, AddExtension]
+    print("\033[0;32mresult:")
     func_tab[agG.get_one()](args)
 
 if __name__ == '__main__':

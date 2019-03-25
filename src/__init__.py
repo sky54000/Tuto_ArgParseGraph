@@ -1,12 +1,12 @@
 
 def Extract(argparseObj):
-    print("Class Extract")
+    print("In Extract function")
 
 def Convert(argparseObj):
-    print("Class Convert")
+    print("In Convert function")
 
 def AddExtension(argparseObj):
-    print("Class AddExtension")
+    print("In AddExtension function")
 
 def ExtractWithExtension(argparseObj):
     Extract(argparseObj)

@@ -1,0 +1,25 @@
+# Convert File
+convert_file:
+  options:
+    - verbose
+    - fileName
+    - word
+# Exctract
+extract_extension:
+  options:
+    - verbose
+    - fileName
+    - dump
+    - extension
+# Extract without extension
+extract:
+  options:
+    - verbose
+    - fileName
+    - dump
+# Add extension
+extension:
+  options:
+    - verbose
+    - fileName
+    - extension
